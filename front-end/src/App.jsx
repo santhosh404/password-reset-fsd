@@ -10,7 +10,7 @@ function App() {
         {
           routes.map((r, idx) => <Route key={idx} path={r.path} element={<r.element />} />)
         }
-        <Route path='*' element={<Navigate to={'/sign-in'} />} />
+        <Route path='/' element={<Navigate to={'/sign-in'} />} />
       </Routes>
     </>
   )
