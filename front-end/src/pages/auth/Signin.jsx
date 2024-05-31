@@ -32,8 +32,10 @@ export default function Signin() {
         const response = await signIn({ ...values })
         setLoading(false)
         showToast("success", "Login Success!");
+        localStorage.setItem('user', JSON.stringify(response.data.data.user))
         signInFormik.resetForm()
         navigate('/home')
+
       }
       catch (err) {
         setLoading(false)
