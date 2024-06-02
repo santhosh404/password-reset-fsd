@@ -95,7 +95,7 @@ export default function SigninComponent({ formik, loading }) {
                 <p>Don't have account ?</p>
                 <Link to='/sign-up' className='underline text-[#1976d2]'>Sign Up</Link>
             </div>
-            <Divider>OR</Divider>
+            {/* <Divider>OR</Divider>
             <div className='flex flex-col gap-4 my-5'>
                 <Button
                     className='font-[500] lowercase'
@@ -108,7 +108,7 @@ export default function SigninComponent({ formik, loading }) {
                 >
                     Sign in with google
                 </Button>
-            </div>
+            </div> */}
         </Card>
     )
 }
