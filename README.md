@@ -13,9 +13,10 @@ The is the Full Stack Project, Which contains all the user Authentication includ
 **Note:** Password reset link in mail will not works, if the password changed successfully
 
 ## API Reference
-
-##### Base url = https://password-reset-fsd.onrender.com
-
+#### Base Url
+```
+https://password-reset-fsd.onrender.com
+```
 #### Create or Signup Users
 
 ```http
